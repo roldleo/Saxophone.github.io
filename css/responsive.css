@@ -1,0 +1,110 @@
+.potrait-bg {
+  display: none;
+  top: 0;
+  position: absolute;
+}
+
+@media only screen and (max-width: 322px) {
+  .home-content .container-fluid {
+    margin-top: 12em;
+  }
+  .row-content-4 {
+    margin-right: 10em !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .potrait-bg {
+    width: 375px !important;
+    height: 710px !important;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .landscape-bg {
+    display: none;
+  }
+  .potrait-bg {
+    display: block;
+    width: 428px;
+    height: 826px;
+  }
+  .home-text {
+    font-size: 1.5em;
+  }
+  .home-content-1 {
+    margin-top: -5em !important;
+  }
+  .home-img-1 {
+    margin-top: 15em;
+    margin-left: -10em;
+  }
+  .home-img-2 {
+    margin-left: -10em !important;
+  }
+  .home-content-2 {
+    margin-top: -13em !important;
+  }
+  .home-img-3 {
+    margin-top: 5em;
+    margin-left: -20em !important;
+  }
+  .home-content-3 {
+    margin-top: -13em !important;
+    margin-left: 3em !important;
+  }
+  .home-img-4 {
+    height: 50%;
+    width: auto;
+    margin-top: 5em !important;
+    margin-left: -1em;
+  }
+  .home-content-4 {
+    margin-top: -23em !important;
+  }
+  .home-element {
+    left: 0 !important;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .history-2 {
+    left: -250px !important;
+  }
+}
+@media only screen and (max-width: 884px) {
+  .text-home-content {
+    width: 100%;
+  }
+  .all-home-content {
+    margin-top: -40em;
+  }
+  .home-content-1 {
+    margin-top: -5em;
+  }
+  .home-img-2 {
+    margin-left: -5em;
+  }
+  .home-content-2 {
+    margin-top: -8em;
+    margin-left: 4em;
+  }
+  .home-img-3 {
+    margin-left: -3em;
+  }
+  .home-content-3 {
+    margin-top: -3em;
+  }
+  .home-content-4 {
+    margin-top: -10em;
+    margin-left: 5em;
+  }
+  .history-2 {
+    left: -180px;
+  }
+  .history-3 {
+    right: 50px;
+  }
+  .history-4 {
+    left: -100px;
+  }
+}

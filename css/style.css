@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&display=swap");
+
+:root {
+  --defaultColor: #ffefe3;
+  --poppins: "Poppins", sans-serif;
+  --rouge: "Rouge Script", cursive;
+}
+
+body {
+  background-color: var(--defaultColor);
+  overflow-x: hidden;
+}
+#navbar {
+  transition: ease-in 0.3s;
+}
+#footer {
+  bottom: 0;
+}
+.navbar-option {
+  font-family: var(--poppins);
+  font-weight: 400;
+}
+.navbar-bg-top {
+  background-color: rgba(255, 239, 227, 0.3);
+  backdrop-filter: blur(5px);
+}
+.navbar-bg-scroll {
+  background-color: #fff7f1 !important;
+  backdrop-filter: none !important;
+}
+.logo-text {
+  font-family: var(--rouge);
+  margin: -10px;
+  font-size: 2em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.footer {
+  background-color: #b09d7f;
+  height: 2.5em;
+  margin-bottom: 0;
+  padding: 0;
+}
+.footer-text {
+  font-family: var(--poppins);
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.footer-text i {
+  color: var(--defaultColor);
+}
+.footer-text a {
+  text-decoration: none;
+  color: #000;
+}
+.jumbotron {
+  height: 100vh;
+}
+.jumbotron-bg {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.jumbotron-text {
+  font-family: var(--rouge);
+  font-size: 16em;
+  color: white;
+  text-shadow: -1px 1px #000, 1px 1px #000, 1px -1px #000, -1px -1px #000;
+  cursor: default;
+}
+.home-text {
+  font-family: var(--poppins);
+  font-size: 2.7em;
+  font-weight: 500;
+}
+.text-home-content {
+  margin-bottom: 4em;
+  margin-top: 4em;
+}
+.content-element {
+  position: relative;
+  overflow: hidden;
+}
+.content-element img {
+  margin-top: 3em;
+  margin-left: 3em;
+  height: 36em;
+}
+.sticky-element {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100%;
+  top: 1px;
+}
+.opacity-50 {
+  z-index: -1;
+}
+.index-up {
+  z-index: 10;
+}
+.flip {
+  transform: scaleX(-1);
+}
+.content-1 {
+  position: relative;
+  left: -7em;
+  margin-top: 2em;
+}
+.content-2 {
+  position: relative;
+  left: 2em;
+  margin-top: 2em;
+}
+.content-3 {
+  position: relative;
+  left: 9em;
+  margin-top: 4em;
+}
+.content-4 {
+  position: relative;
+  left: -1em;
+  margin-top: 2em;
+}
+
+/*  */
+/* History */
+/*  */
+.content-header {
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-size: 3.5em;
+}
+.history-content img {
+  position: relative;
+}
+.history-text {
+  font-family: var(--poppins);
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.history-1 {
+  margin-left: -8em;
+}
+.history-text-1 {
+  margin-top: 3em;
+}
+.history-2 {
+  margin-left: 3em;
+  margin-top: 8em;
+}
+.history-text-2 {
+  margin-top: 10em;
+}
+.history-3 {
+  margin-top: 6em;
+}
+.history-text-3 {
+  margin-top: 8em;
+}
+.history-4 {
+  margin-top: 8em;
+  margin-left: 5em;
+  transform: rotate(-7deg);
+}
+.history-text-4 {
+  margin-top: 12em;
+}
+.end-content {
+  margin-bottom: 8em;
+}
+
+/*  */
+/* Tpye */
+/*  */
+
+.desc-title-type {
+  white-space: normal;
+}
+.type-select-active {
+  transform: scale(1.5);
+  color: #000 !important;
+}
+.type-select {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: var(--poppins);
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.type-desc {
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+/*  */
+/* Structure */
+/*  */
+.structure-img-element {
+  position: absolute;
+  right: 0;
+  margin-top: -16em;
+  margin-right: -16em;
+}
+.structure-desc {
+  font-family: var(--poppins);
+  font-size: 1em;
+}
+.structure-sub-title {
+  font-family: var(--poppins);
+  font-size: 2em;
+  font-weight: 500;
+}
+.margin-structure {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+.m-structure-text-1 {
+  margin-top: 4em;
+}
+.structure-img-2 {
+  margin-top: -5em;
+  margin-left: -3em;
+}
+.m-structure-text-3 {
+  margin-top: 8em;
+}
+.structure-img-3 {
+  margin-top: -6em;
+}
+
+/*  */
+/* Responsive */
+/*  */
+
+.dinant438 {
+  left: -100px !important;
+  margin-bottom: -14em;
+  margin-top: 8em;
+}
+.he-4-438 {
+  margin-top: 1em;
+}
